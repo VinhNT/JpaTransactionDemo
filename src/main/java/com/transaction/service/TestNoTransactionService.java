@@ -10,7 +10,7 @@ public class TestNoTransactionService {
 
   public void methodWithNoTransaction() throws InterruptedException {
     log.info("No Transaction - Start");
-    Thread.sleep(30000);
+    Thread.sleep(15000);
     log.info("No Transaction - Done");
   }
 }
